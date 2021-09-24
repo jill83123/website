@@ -1,6 +1,7 @@
 body {
 	margin: 0 auto;
 	width: 1000px;
+	height: 800px;
 	padding: 0;
 	background: #ffffff;
 	font-family: Helvetica, sans-serif;
@@ -65,11 +66,36 @@ ul {
 	background-color: #292a31;
   }
 
+#login{
+	width: 200px;
+	position: relative;
+	top:10px;
+}
+
+#news{
+	width: 200px;
+	position: relative;
+	top:20px;
+}
+
+#news h1, #login h1{
+	width: 200px;
+	padding: 3px;
+	font-size: 20px;
+	color: #ffe4c3;
+	text-align: center;
+	background-color: #595B6A;
+	border-radius: 10px;
+}
+
 #footer {
 	clear: both;
+	width: 1000px;
 	background: #eee;
 	padding: 10px;
 	border-top: 2px solid #ddd;
 	text-align: center;
 	color: #777;
+	position: absolute;
+	top: 800px;
 }
