@@ -18,10 +18,14 @@ p {
 	line-height: 1.4em;
 }
 
+ul {
+	list-style-type: none;
+}
+
 #menu {
 	margin: 0 auto ;
 	margin-top: 20px;
-	width: 100px;
+	width: 800px;
 	font-size: 65%;
 	color: rgb(255, 255, 255);
 	background: #3c4f74 repeat-x top;
