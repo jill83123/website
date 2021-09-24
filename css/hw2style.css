@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	background: #ffffff;
 	font-family: Helvetica, sans-serif;
-	font-size: 80px;
+	font-size: 30px;
 	color: #333;
 }
 
@@ -26,7 +26,7 @@ ul {
 	margin: 0 auto ;
 	margin-top: 20px;
 	width: 800px;
-	font-size: 65px;
+	font-size: 15px;
 	color: rgb(255, 255, 255);
 	background: #595B6A;
 }
