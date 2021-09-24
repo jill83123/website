@@ -5,7 +5,6 @@ body {
 	background: #ffffff;
 	font-family: Helvetica, sans-serif;
 	font-size: 15px;
-	color: #333;
 }
 
 h1, h2, p, ul, li {
@@ -19,30 +18,58 @@ ul {
 
 #logo{
 	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: #1f1f1f;
 }
 
-#logo h2{
+#black{
+	color: #1f1f1f;
+	text-decoration: none;
+}
+
+#white{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#metamorph{
+	color: #ffe4c3;
 	font-size: 15px;
+	text-decoration: none;
 }
 
 #menu {
 	margin: 0 auto ;
-	margin-top: 20px;
+	margin-top: 5px;
 	width: 1000px;
-	height: 30px;
 	color: rgb(255, 255, 255);
 	background: #595B6A;
-	position: relative;
-	bottom: 15px;
+	padding: 5px 0 25px 0;
 }
 
 #menu li {
-	display: inline;
-	margin: 0 0 0 50px;
+	float: left;
+	margin: 0 0 0 120px;
 	font-size: 20px;
 }
 
 #menu li a {
+	display: block;
 	color: #ffe4c3;
 	text-decoration: none;
+	background-color: #595B6A;
+}
+
+#menu li a:hover {
+	background-color: #292a31;
+  }
+
+#footer {
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
 }
