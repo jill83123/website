@@ -22,13 +22,10 @@ ul {
 	list-style-type: none;
 }
 
-#logo h3{
-	float:top;
-}
-
 #menu {
 	margin: 0 auto ;
 	margin-top: 20px;
+	display: inline;
 	width: 800px;
 	font-size: 65%;
 	color: rgb(255, 255, 255);
