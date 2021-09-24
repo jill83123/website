@@ -4,7 +4,7 @@ body {
 	padding: 0;
 	background: #ffffff;
 	font-family: Helvetica, sans-serif;
-	font-size: 30px;
+	font-size: 15px;
 	color: #333;
 }
 
@@ -13,20 +13,36 @@ h1, h2, p, ul, li {
 	padding: 0;
 }
 
-p {
-	font-size: 1.4em;
-	line-height: 1.4em;
-}
-
 ul {
 	list-style-type: none;
+}
+
+#logo{
+	position: absolute;
+}
+
+#logo h2{
+	font-size: 15px;
 }
 
 #menu {
 	margin: 0 auto ;
 	margin-top: 20px;
-	width: 800px;
-	font-size: 15px;
+	width: 1000px;
+	height: 30px;
 	color: rgb(255, 255, 255);
 	background: #595B6A;
+	position: relative;
+	bottom: 15px;
+}
+
+#menu li {
+	display: inline;
+	margin: 0 0 0 50px;
+	font-size: 20px;
+}
+
+#menu li a {
+	color: #ffe4c3;
+	text-decoration: none;
 }
