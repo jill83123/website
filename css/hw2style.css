@@ -1,0 +1,19 @@
+/*
+Red Lantern redesign
+HFWD Chapter 1
+*/
+
+/*
+The font size here is set to 62.5% so that
+1em = 10px. This makes adjusting our typography
+a little easier
+*/
+body {
+	margin: 0 auto;
+	width: 800px;
+	padding: 0;
+	background: #6e0427 url('../images/Dj6NyzfU0AQSPr6.jpg') repeat-x top;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
