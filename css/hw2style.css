@@ -88,6 +88,23 @@ ul {
 	border-radius: 10px;
 }
 
+article{
+	width: 700px;
+	float: right;
+	position: relative;
+	bottom: 230px;
+	right: 50px;
+}
+
+article h1{
+	font-size: 30px;
+}
+
+article samp{
+	position: relative;
+	left: 570px;
+}
+
 #footer {
 	clear: both;
 	width: 1000px;
