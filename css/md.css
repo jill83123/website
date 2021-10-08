@@ -136,8 +136,10 @@
 	height: 40px;
 	border-top: 1px solid #FFFFFF;
 	text-align: center;
+    padding-bottom: 10px;
 }
 
 #footer p {
+    font-family: Verdana;
 	color: #FFFFFF;
 }
