@@ -260,10 +260,6 @@ body {
 	color: #54A719
 }
 
-.marg_top2 {
-	margin-top: 11px;
-}
-
 .col1 {
 	float: left
 }
@@ -275,11 +271,6 @@ body {
 
 .col2 {
 	width: 602px;
-	float: right
-}
-
-.cols {
-	width: 268px;
 }
 
 .clearall {
@@ -406,10 +397,6 @@ body {
 	background: url(images/footer_top_border.png) no-repeat top left;
 	width: 226px;
 	padding: 10px 0px 10px 0px;
-}
-
-#footer_column2 {
-	padding: 0px 87px 0px 75px;
 }
 
 .foot_pad {
