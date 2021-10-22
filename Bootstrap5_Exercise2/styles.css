@@ -11,11 +11,6 @@ a:visited {
 	color: #54A719;
 }
 
-* {
-	border: 0;
-	margin: 0;
-}
-
 body {
 	font: 12px Tahoma, Arial, Helvetica, sans-serif;
 	color: #666666;
@@ -26,13 +21,7 @@ body {
 	background: url(images/back.png) repeat-x top;
 }
 
-#main {
-	margin: 0 auto;
-	width: 940px;
-}
-
 #header {
-	width: 948px;
 	margin: 0 auto;
 }
 
@@ -59,7 +48,6 @@ body {
 #navigation {
 	position: relative;
 	z-index: 100;
-	width: 940px;
 	height: 38px;
 	background: url(images/nav-bg.png) no-repeat 0 0;
 	margin-top: 15px;
@@ -102,15 +90,6 @@ body {
 
 #navigation ul li.first a:hover {
 	background: url(images/first-nav-hover.png) no-repeat 0 0 !important;
-}
-
-#content {
-	width: 768px;
-	padding: 5px;
-}
-
-#content_bg {
-	padding: 5px;
 }
 
 .container {
@@ -184,7 +163,7 @@ body {
 }
 
 #column1, #column2, #column3 {
-	padding: 20px 45px 10px 20px;
+	padding: 20px 0 10px 0;
 }
 
 #column1, #column2 {
@@ -196,7 +175,7 @@ body {
 }
 
 #column_box {
-	margin: 0px 22px 20px 16px;
+	margin: 0px 0 20px 0;
 }
 
 #column_box p {
@@ -364,7 +343,6 @@ body {
 	margin: 0 auto;
 	padding-top: 25px;
 	background: url(images/footer_top_border.png) no-repeat bottom left;
-	position: relative;
 }
 
 #footer_top h3 {
