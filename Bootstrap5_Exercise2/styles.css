@@ -457,6 +457,10 @@ footer_bot
 	font-size: 11px
 }
 
+#footer_bot p {
+    margin-bottom: -0.1rem;
+}
+
 #slider {
 	position: relative;
 	width: 920px;
