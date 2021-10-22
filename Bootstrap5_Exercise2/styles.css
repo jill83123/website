@@ -34,14 +34,12 @@ body {
 #header {
 	width: 948px;
 	margin: 0 auto;
-	height: 367px;
 }
 
 #logo {
 	padding-left: 40px;
 	text-align: left;
 	padding-top: 30px;
-	height: 65px;
 	width: 948px;
 	margin: 0 auto;
 }
@@ -186,9 +184,6 @@ body {
 }
 
 #column1, #column2, #column3 {
-	float: left;
-	width: 231px;
-	height: 119px;
 	padding: 20px 45px 10px 20px;
 }
 
@@ -267,7 +262,6 @@ body {
 
 .marg_top2 {
 	margin-top: 11px;
-	width: 940px;
 }
 
 .col1 {
@@ -277,7 +271,6 @@ body {
 .col1 {
 	width: 304px;
 	height: 220px;
-	padding-left: 20px
 }
 
 .col2 {
@@ -406,7 +399,6 @@ body {
 }
 
 #footer_column1, #footer_column2, #footer_column3 {
-	width: 226px;
 	float: left;
 }
 
